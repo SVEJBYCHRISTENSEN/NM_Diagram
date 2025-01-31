@@ -1,0 +1,31 @@
+﻿<Window 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NM_Concrete"
+        xmlns:oxy="http://oxyplot.org/wpf" x:Class="NM_Concrete.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="addReinforcementButton" Content="Add reinforcement" HorizontalAlignment="Left" Height="30" Margin="33,162,0,0" VerticalAlignment="Top" Width="108" Click="addReinforcementButton_Click"/>
+        <Label Content="Height:" HorizontalAlignment="Left" Height="23" Margin="33,8,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label Content="Width:" HorizontalAlignment="Left" Height="23" Margin="33,36,0,0" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="heightInput" HorizontalAlignment="Left" Height="23" Margin="151,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="127"/>
+        <TextBox x:Name="widthInput" HorizontalAlignment="Left" Height="23" Margin="151,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="127"/>
+        <Button x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Left" Height="30" Margin="156,162,0,0" VerticalAlignment="Top" Width="122" Click="calculateButton_Click"/>
+
+        <!--Diagram-->
+        <oxy:PlotView x:Name="diagramPlot" Margin="375,0,14,52" VerticalAlignment="Bottom" Height="362"/>
+        <Button x:Name="sectionUpdateButton" Content="Create section" HorizontalAlignment="Left" Height="24" Margin="33,128,0,0" VerticalAlignment="Top" Width="108" Click="sectionUpdateButton_Click"/>
+        <oxy:PlotView x:Name="sectionPlot" HorizontalAlignment="Left" Margin="33,206,0,0" VerticalAlignment="Top" Height="210" Width="210"/>
+        <Label Content="Material:" HorizontalAlignment="Left" Height="23" Margin="33,67,0,0" VerticalAlignment="Top" Width="86"/>
+        <ComboBox x:Name="concreteMaterialInput" HorizontalAlignment="Left" Height="23" Margin="151,69,0,0" VerticalAlignment="Top" Width="127" IsEditable="False" SelectedIndex="0">
+        </ComboBox>
+        <Label Content="Partial coefficient" HorizontalAlignment="Left" Height="23" Margin="33,95,0,0" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="gammaCInput" HorizontalAlignment="Left" Height="23" Margin="151,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="127"/>
+        <Button x:Name="rebarMaterialEdit" Content="Edit" HorizontalAlignment="Left" Height="23" Margin="295,69,0,0" VerticalAlignment="Top" Width="57" Click="editMaterialButton_Click"/>
+        <Button x:Name="printButton" Content="Print" Margin="0,0,30,20" Click="printButton_Click" Height="21" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="56"/>
+
+    </Grid>
+</Window>

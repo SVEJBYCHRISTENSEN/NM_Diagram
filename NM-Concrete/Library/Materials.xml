@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Materials>
+  <!-- Concrete Materials -->
+  <Concrete>
+    <Material id="C35/45">
+      <Type>Concrete</Type>
+      <Density unit="kg/m3">2500</Density>
+      <CompressiveStrength unit="MPa">35</CompressiveStrength>
+      <Ecm unit="MPa">34000</Ecm>
+      <CO2Equivalent unit="kgCO2/m3">350</CO2Equivalent>
+      <ecu3 unit="">0,0035</ecu3>
+      <ec3 unit="">0,00175</ec3>
+      <eta unit="">1</eta>
+      <lambda unit="">0,8</lambda>
+    </Material>
+    <Material id="C40/50">
+      <Type>Concrete</Type>
+      <Density unit="kg/m3">2500</Density>
+      <CompressiveStrength unit="MPa">40</CompressiveStrength>
+	  <Ecm unit="MPa">35000</Ecm>
+	  <CO2Equivalent unit="kgCO2/m3">400</CO2Equivalent>
+      <ecu3 unit="">0,0035</ecu3>
+      <ec3 unit="">0,00175</ec3>
+      <eta unit="">1</eta>
+      <lambda unit="">0,8</lambda>
+    </Material>
+    <Material id="C45/55">
+      <Type>Concrete</Type>
+      <Density unit="kg/m3">2500</Density>
+      <CompressiveStrength unit="MPa">45</CompressiveStrength>
+	  <Ecm unit="MPa">36000</Ecm>
+	  <CO2Equivalent unit="kgCO2/m3">450</CO2Equivalent>
+      <ecu3 unit="">0,0035</ecu3>
+      <ec3 unit="">0,00175</ec3>
+      <eta unit="">1</eta>
+      <lambda unit="">0,8</lambda>
+    </Material>
+    <Material id="C30/37">
+      <Type>Concrete</Type>
+      <Density unit="kg/m3">2500</Density>
+      <CompressiveStrength unit="MPa">30</CompressiveStrength>
+      <Ecm unit="MPa">33000</Ecm>
+      <CO2Equivalent unit="kgCO2/m3">350</CO2Equivalent>
+      <ecu3 unit="">0,0035</ecu3>
+      <ec3 unit="">0,00175</ec3>
+      <eta unit="">1</eta>
+      <lambda unit="">0,8</lambda>
+    </Material>
+    <Material id="Example C40/50">
+      <Type>Concrete</Type>
+      <Density unit="kg/m3">2500</Density>
+      <CompressiveStrength unit="MPa">40</CompressiveStrength>
+	  <Ecm unit="MPa">35000</Ecm>
+      <CO2Equivalent unit="kgCO2/m3">400</CO2Equivalent>
+      <ecu3 unit="">0,0035</ecu3>
+      <ec3 unit="">0,0023</ec3>
+      <eta unit="">1</eta>
+      <lambda unit="">0,8</lambda>
+    </Material>
+  </Concrete>
+  <!-- Steel Materials -->
+  <Steel>
+    <Material id="S235">
+      <Type>Steel</Type>
+      <Density unit="kg/m3">7850</Density>
+      <YieldStrength unit="MPa">235</YieldStrength>
+      <YoungModulus unit="MPa">210000</YoungModulus>
+      <CO2Equivalent unit="kgCO2/ton">1800</CO2Equivalent>
+    </Material>
+    <Material id="S355">
+      <Type>Steel</Type>
+      <Density unit="kg/m3">7850</Density>
+      <YieldStrength unit="MPa">355</YieldStrength>
+      <YoungModulus unit="MPa">210000</YoungModulus>
+      <CO2Equivalent unit="kgCO2/ton">1900</CO2Equivalent>
+    </Material>
+    <Material id="S275">
+      <Type>Steel</Type>
+      <Density unit="kg/m3">7850</Density>
+      <YieldStrength unit="MPa">275</YieldStrength>
+      <YoungModulus unit="MPa">210000</YoungModulus>
+      <CO2Equivalent unit="kgCO2/ton">1800</CO2Equivalent>
+    </Material>
+  </Steel>
+  <!-- Rebar Materials -->
+  <Rebar>
+    <Material id="Y550">
+      <Type>Rebar</Type>
+      <Density unit="kg/m3">7850</Density>
+      <YieldStrength unit="MPa">550</YieldStrength>
+      <YoungModulus unit="MPa">200000</YoungModulus>
+      <CO2Equivalent unit="kgCO2/ton">2000</CO2Equivalent>
+    </Material>
+    <Material id="B450C">
+      <Type>Rebar</Type>
+      <Density unit="kg/m3">7850</Density>
+      <YieldStrength unit="MPa">450</YieldStrength>
+      <YoungModulus unit="MPa">200000</YoungModulus>
+      <CO2Equivalent unit="kgCO2/ton">1950</CO2Equivalent>
+    </Material>
+    <Material id="BST">
+      <Type>Rebar</Type>
+      <Density unit="kg/m3">7850</Density>
+      <YieldStrength unit="MPa">1634</YieldStrength>
+      <YoungModulus unit="MPa">200000</YoungModulus>
+      <CO2Equivalent unit="kgCO2/ton">1950</CO2Equivalent>
+    </Material>
+    <Material id="K500">
+      <Type>Rebar</Type>
+      <Density unit="kg/m3">7850</Density>
+      <YieldStrength unit="MPa">500</YieldStrength>
+      <YoungModulus unit="MPa">200000</YoungModulus>
+      <CO2Equivalent unit="kgCO2/ton">2000</CO2Equivalent>
+    </Material>
+    <Material id="ExamplePrestress">
+      <Type>Rebar</Type>
+      <Density unit="kg/m3">7850</Density>
+      <YieldStrength unit="MPa">1391</YieldStrength>
+      <YoungModulus unit="MPa">195000</YoungModulus>
+      <CO2Equivalent unit="kgCO2/ton">1950</CO2Equivalent>
+    </Material>
+    <Material id="ExampleNormal">
+      <Type>Rebar</Type>
+      <Density unit="kg/m3">7850</Density>
+      <YieldStrength unit="MPa">435</YieldStrength>
+      <YoungModulus unit="MPa">200000</YoungModulus>
+      <CO2Equivalent unit="kgCO2/ton">2000</CO2Equivalent>
+    </Material>
+  </Rebar>
+  <!-- Timber Materials -->
+  <Timber>
+    <Material id="GL24h">
+      <Type>Glued Laminated Timber</Type>
+      <Density unit="kg/m3">480</Density>
+      <BendingStrength unit="MPa">24</BendingStrength>
+      <CO2Equivalent unit="kgCO2/m3">15</CO2Equivalent>
+    </Material>
+    <Material id="C24">
+      <Type>Solid Timber</Type>
+      <Density unit="kg/m3">420</Density>
+      <BendingStrength unit="MPa">24</BendingStrength>
+      <CO2Equivalent unit="kgCO2/m3">10</CO2Equivalent>
+    </Material>
+  </Timber>
+</Materials>
